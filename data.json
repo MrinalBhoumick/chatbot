@@ -1,0 +1,58 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hello, Hi, Greetings!, Hello, Hi, How is it going?, Hi, How is it going?, Hi, How is it going?, Hi, How is it going?, How are you doing?, How are you doing?, Nice to meet you, It is a pleasure to meet you, What's up?, What's up?, What's up?, What's up?, What's up?, What's up?"],
+     "responses": ["Hi", "Hello", "Hello", "Greetings!", "Good", "Fine", "Great", "Not so great", "Very well", "thanks.", "Fine", "and you?", "Thank you You too", "Not much", "Not too much", "Not much", "how about you?", "Nothing much", "The sky's up but I'm fine thanks"," What about you?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye","See you later","Goodbye"],
+     "responses": ["See you later","Thanks for visiting","Have a nice day","Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "hours",
+     "patterns": ["What hours are you open?","What are your hours?","When are you open?"],
+     "responses": ["We're open every day 9am-5pm","Our hours are 9am-9pm everyday"],
+     "context": [""]
+    },
+    {"tag": "payments",
+     "patterns": ["Do you take credit cards?","Do you accept Mastercard?","Are you cash only?"],
+     "responses": ["We accept most major credit cards","We accept VISA, Mastercard, RUPAY"],
+     "context": [""]
+    },
+    {"tag": "opentoday",
+     "patterns": ["Are you open today?","When do you open today?","What are your hours today?"],
+     "responses": ["We're open every day 9am-5pm","except sunday","Our hours are 9am-9pm everyday","except sunday"],
+     "context": [""]
+    },
+    {"tag": "courses and fees",
+     "patterns": ["What are the courses available?","What type of courses are available?","What is the fee structure?","What are the courses offered","what is the course duration?"],
+     "responses": ["Course: B.E/B.TECH, Total Tution Fees: INR 2.68 L - 6.32 L(for 3-7 years),Eligibility: 10+2(45%) WBJEE, JEE Main","Course: B.Sc., Total tuition Fees: INR 4.1 L(for 3-5 years), Eligibility: 10+2(60-70 %), WBJEECBSE 12th","Course: BBCA, Total tuition Fees: INR 1.84 L(for 3-5 years), Eligibility: 10+2(60%)",  "Course: M.Sc., Total tuition Fees: - , Eligibility: 10+2(60%), Graduation(60%) ","Course: BBA, Total tuition Fees: INR 3.4 L(for 3-4 years), 10+2(60%)","Course: MBA/PGDM, Total tuition Fees: INR 5.35 L(for 2-5 years),10+2 : (45-60%), WBJEEJEE Main","Course: B.Pharma, Total tuition Fees: INR 6.32 L(for 4 years), Eligibility: 10+2(45 %), WBJEE","Course: M.E./M.Tech, Total tuition Fees: INR 3.57 (for 2-7 years), Eligibility: 10+2(45%), Graduation(60%), WBJEEJEE Main"],
+     "context": [""]
+    },
+    {"tag": "placement",
+     "patterns": ["what are the companies that visit?", "what is the highest package?", "what is the average package?", "what is the placement record percentage?"],
+     "responses":["TCS,INFOSYS,ACCENTURE,WIPRO,MICROSOFT,.NET,AMAZON,COGNIZENT", "15 LPA", "3.5 LPA", "90%"],
+     "context": []
+    },
+    {"tag": "Accomodation",
+     "patterns": ["Does the college have hostel facility?", "Does the college provide accomodation", "Does the college have canteen?"],
+     "responses": ["NO, the college does not provide any hostel facility", "NO, the college doesnot provide accomodation", "YES, the college has canteen"],
+     "context": [""]
+    },
+    {"tag": "Ragging and bullying",
+     "patterns": ["How are the seniors and college life?"],
+     "responses": ["The college has strict policy against ragging and the seniors are kind and helpfull, overall good college life :)"],
+     "context": [""]
+    },
+    {"tag": "academics",
+     "patterns": ["What is the academic calendar for universities?", "How are the Professors and faculty?"],
+     "responses": [ "The academic year usually runs from August through May with breaks for holidays","Most universities use either the semester system (two terms)", "the quarter system (students attend three out of four total terms", "the trimester system (three terms)", "The Faculties are good and helpfull, & the Professors teach quite well and friendly"],
+     "context": [""]
+    }
+]
+}
